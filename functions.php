@@ -87,10 +87,10 @@ function bao_chan_scripts() {
 	wp_enqueue_style( 'chanchan-main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), C_VERSION );
 
 	// Bootstrap CSS
-	wp_enqueue_style( 'chanchan-bstr-css', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css', array(), 'v4' );
+	wp_enqueue_style( 'chanchan-bstr-css', get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css', array(), 'v4' );
 
 	// Bootstrap JS
-	wp_enqueue_script( 'chanchan-bstr-js', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js', array('jquery'), 'v4' , false );
+	wp_enqueue_script( 'chanchan-bstr-js', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), 'v4' , false );
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
