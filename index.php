@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
-	<a href="">Test</a>
+	<div class="main-content">
+		
+		<div class="container">
+			
+			
+
+		</div>
+
+	</div>
 
 <?php get_footer(); ?>

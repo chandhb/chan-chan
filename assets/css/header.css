@@ -1,5 +1,5 @@
 .logo a {
-    font-family: 'Anton';
+    font-family: 'VT323';
     font-size: 28px;
     text-transform: uppercase;
 }
@@ -20,5 +20,6 @@ ul.children {
 
 #header-main {
     padding: 2rem 0;
-    box-shadow: 0 8px 40px 0 rgba(103,151,255,.11), 0 12px 60px 0 rgba(103,151,255,.11);
+    box-shadow: 0px 8px 20px 10px #e8e8e840;
+    background-color: #fff;
 }

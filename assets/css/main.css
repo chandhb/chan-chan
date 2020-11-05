@@ -1,8 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
 
 body, html {
-	font-family: 'Quicksand' !important;
+	font-family: 'VT323' !important;
+	background-color: #f2f2f2
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Jura';
+}
 
+.main-content {
+    padding: 6rem 0;
+}
+
+.card-header {
+    padding: 10px;
+}
+
+.mac-action {
+    display: flex;
+}
+
+.m-close, .m-minimize, .m-expand {
+    /* background: #de2121; */
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+.m-close {
+    background: #de2121;
+}
+
+.m-minimize {
+    background: #ff8d00;
+}
+
+.m-expand {
+    background: #2da22d;
+}
+
+.card {
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 2px 9px 20px 10px #d4d4d487;
+}
