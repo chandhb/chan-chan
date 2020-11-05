@@ -33,7 +33,7 @@
 		<?php get_template_part( 'template-parts/header/header', 'top' ); ?>
 
 		<!-- Main Header -->
-		<?php get_template_part( 'templart-parts/header/header', 'main' ); ?>
+		<?php get_template_part( 'template-parts/header/header', 'main') ?>
 
 		<!-- Bottom Header -->
 		<?php get_template_part( 'templater-parts/header/header', 'bottom' ); ?>
