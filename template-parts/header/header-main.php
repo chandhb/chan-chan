@@ -4,18 +4,16 @@
 		
 		<div class="row">
 			
-			<div class="col-4">
+			<div class="col-2">
 				<div class="logo">
 					<a href="">Chan Chan</a>
 				</div>
 			</div>
 
-			<div class="col-8">
-				<div class="menu">
+			<div class="col-10">
 					<?php wp_nav_menu( array(
 						'theme_location'  => 'Primary',
 					) ); ?>
-				</div>
 			</div>
 
 		</div>
