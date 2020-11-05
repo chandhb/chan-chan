@@ -6,7 +6,7 @@
 			
 			<div class="col-2">
 				<div class="logo">
-					<a href="<?php echo home_url(); ?>">Chan Chan</a>
+					<a href="<?php echo home_url(); ?>">Cuồng Team</a>
 				</div>
 			</div>
 
