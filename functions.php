@@ -84,10 +84,11 @@ function bao_chan_scripts() {
 
 	wp_enqueue_style( 'chanchan-style', get_stylesheet_uri(), array(), C_VERSION );
 
-	wp_enqueue_style( 'chanchan-main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), C_VERSION );
-
 	// Bootstrap CSS
 	wp_enqueue_style( 'chanchan-bstr-css', get_stylesheet_directory_uri() . '/assets/css/bootstrap.min.css', array(), 'v4' );
+	wp_enqueue_style( 'chanchan-main-css', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), C_VERSION );
+	wp_enqueue_style( 'chanchan-header-css', get_stylesheet_directory_uri() . '/assets/css/header.css', array(), C_VERSION );
+
 
 	// Bootstrap JS
 	wp_enqueue_script( 'chanchan-bstr-js', get_stylesheet_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'), 'v4' , false );

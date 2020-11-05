@@ -6,13 +6,14 @@
 			
 			<div class="col-2">
 				<div class="logo">
-					<a href="">Chan Chan</a>
+					<a href="<?php echo home_url(); ?>">Chan Chan</a>
 				</div>
 			</div>
 
-			<div class="col-10">
+			<div class="col-10 d-flex">
 					<?php wp_nav_menu( array(
 						'theme_location'  => 'Primary',
+						'menu_class'				=>		'menu d-flex align-items-center w-100',
 					) ); ?>
 			</div>
 

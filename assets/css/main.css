@@ -5,23 +5,4 @@ body, html {
 	font-family: 'Quicksand' !important;
 }
 
-.logo a {
-    font-family: 'Anton';
-    font-size: 28px;
-    text-transform: uppercase;
-}
 
-.menu ul:not(.children) {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    list-style: none;
-}
-
-ul.children {
-    display: none;
-}
-
-#header-main {
-    padding: 2rem 0;
-}
