@@ -25,6 +25,19 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<header>
-	<a href="">Trang Chủ</a>
-</header>
+<div id="page" class="site">
+	
+	<header>
+		
+		<!-- Top Header -->
+		<?php get_template_part( 'template-parts/header/header', 'top' ); ?>
+
+		<!-- Main Header -->
+		<?php get_template_part( 'templart-parts/header/header', 'main' ); ?>
+
+		<!-- Bottom Header -->
+		<?php get_template_part( 'templater-parts/header/header', 'bottom' ); ?>
+
+	</header>
+
+</div>
