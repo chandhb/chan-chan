@@ -12,10 +12,10 @@
 
 			<div class="col-10 d-flex">
 					<?php wp_nav_menu( array(
-						'menu'						=>	'Main Menu',
-						'theme_location'  			=> 'Primary',
+						'menu'						=>		'Menu Main',
+						'theme_location'  			=>		'Primary',
 						'menu_class'				=>		'd-flex align-items-center w-100',
-						'container_class'			=>	'menu w-100 d-flex'
+						'container_class'			=>		'menu w-100 d-flex'
 					) ); ?>
 			</div>
 
